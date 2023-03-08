@@ -16,8 +16,9 @@
     <!-- FontAwesome JS -->
     <script defer src="assets/fontawesome/js/all.js"></script>
     
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Global CSS 
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
@@ -73,7 +74,7 @@
                     <h2 class="heading">About Me</h2>
                     <div class="content">
                         <p>(Escribir)</p>
-                        
+                        <p>Download my resume <a href="assets/CV_RaquelGarcia_A.pdf" target="_blank"> here</a></p>
                     </div><!--//content-->
                 </div><!--//section-inner-->
                 <div id="projects" ></div>                 
@@ -81,44 +82,61 @@
             
             <section class="latest section">
                 <div class="section-inner shadow-sm rounded">
-                    <h2 class="heading">Projects</h2>
+                    <h2 class="heading">Latest Project</h2>
                     <div class="content">    
                                             
                         <div class="item featured text-center">
-                            <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project4.jpg" alt="project name" style="width: 50%;"/>
-                            <h3 class="title mb-3"><a href="https://raquelgg00.itch.io/ninja-character-asset-for-unity" target="_blank">Ninja Character Asset for Unity</a></h3>
+                            <div class="featured-image">
+                                <a href="https://raquelgg00.itch.io/ninja-character-asset-for-unity" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project4.jpg" alt="project name" style="width: 50%;"/>
+                                </a>
                                 
-                            <div class="desc text-start">                                    
-                                <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                            </div>
+                            <h3 class="title mb-3"><a href="https://raquelgg00.itch.io/ninja-character-asset-for-unity" target="_blank">Ninja Character Asset for Unity</a></h3>
+                            <div class="desc">                                    
+                                <p>Final degree project. It’s made using Unity and Blender</p>
+                                <p class="subtitle">C#, Gameplay, 3D modelling, Rigging, Animation</p>
                             </div><!--//desc-->    
                             <a class="btn btn-cta-primary" href="https://raquelgg00.itch.io/ninja-character-asset-for-unity" target="_blank"> Download on itch.io</a>                     
                         </div><!--//item-->
                         <hr class="divider" />
+                    </div>
+                    <h2 class="heading">Projects</h2>
+                    <div class="content">  
                         <div class="item row">
-                            <a class="col-md-4 col-12" href="https://kofigames.itch.io/maw-of-the-coliseum" target="_blank">
-                            <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project3.png" alt="project name" />
-                            </a>
+                            <div class="col-md-4 col-12">
+                                <a href="https://kofigames.itch.io/maw-of-the-coliseum" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project3.png" alt="project name" />
+                                </a>
+                            </div>
                             <div class="desc col-md-8 col-12">
                                 <h3 class="title"><a href="https://kofigames.itch.io/maw-of-the-coliseum" target="_blank">Maw of the coliseum</a></h3>
-                                <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                <p class="mb-2">University project. Fighting 3D game with 2 game modes for Windows, Linux and Mac.</p>
+                                <p class="subtitle mb-2">C++, Gameplay, Physics, 3D modelling, Rigging, Motion Capture, Multiplayer Networking</p>
                             </div><!--//desc-->                          
                         </div><!--//item-->
                         <div class="item row">
-                            <a class="col-md-4 col-12" href="https://axolotl-z80.itch.io/castle-kid" target="_blank">
-                            <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project2.png" alt="project name" />
-                            </a>
+                            <div class="col-md-4 col-12">
+                                <a href="https://axolotl-z80.itch.io/castle-kid" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project2.png" alt="project name" />
+                                </a>
+                            </div>
                             <div class="desc col-md-8 col-12">
                                 <h3 class="title"><a href="https://axolotl-z80.itch.io/castle-kid" target="_blank">Castle Kid</a></h3>
-                                <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                <p class="mb-2">University project. Game implements with Z80 assembly for the CPCRetroDev 2021.</p>
+                                <p class="subtitle mb-2">Z80 assembly, Graphics, CPCTelera, GIMP, Tiled, TinyXML2</p>
                             </div><!--//desc-->                          
                         </div><!--//item-->
                         <div class="item row">
-                            <a class="col-md-4 col-12" href="https://thefirstshape.itch.io/the-first-shape" target="_blank">
-                            <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project1.png" alt="project name" />
-                            </a>
+                            <div class="col-md-4 col-12">
+                                <a href="https://thefirstshape.itch.io/the-first-shape" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project1.png" alt="project name" />
+                                </a>
+                            </div>
                             <div class="desc col-md-8 col-12">
                                 <h3 class="title"><a href="https://thefirstshape.itch.io/the-first-shape" target="_blank">The First Shape</a></h3>
-                                <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                <p class="mb-2">University project. Platform game with release in Windows and Linux.</p>
+                                <p class="subtitle mb-2">C++, SFML, TinyXML2, Tiled, MySQL</p>
                             </div><!--//desc-->                          
                         </div><!--//item-->
                         
@@ -140,13 +158,49 @@
                 <div id="skills" ></div>                   
             </section><!--//section-->
 
-            <section class="latest section">
+            <section class="skills section">
                 <div class="section-inner shadow-sm rounded">
                     <h2 class="heading">Skills</h2>
                     <div class="content">
-                        <div class="item">
-                            <h3 class="title">Unity 3d developer (internship)  - <span class="place"><a href="#">Video Stream Network S.L.</a></span> <span class="year">(2022 - Present)</span></h3>
-                            <p>Design, modelling and implement a 3D environment in Unity.</p>
+                        <div class="item row">
+                            <div class="col-md-6">
+                                <h3 class="title">Programming Languages</h3>
+                                <ul class="list-unstyled">
+                                    <li>Modern C++</li>
+                                    <li>C</li>
+                                    <li>Java</li>
+                                    <li>C#</li>
+                                    <li>Assembler</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="title">Videogames Technologies</h3>
+                                <ul class="list-unstyled">
+                                    <li>Unity 3D</li>
+                                    <li>Blender</li>
+                                    <li>Irrlicht 3D</li>
+                                </ul>
+                            </div>
+                        </div><!--//item--> 
+                        <div class="item row">
+                            <div class="col-md-6">
+                                <h3 class="title">Apttitud</h3>
+                                <ul class="list-unstyled">
+                                    <li>Self-lerneR</li>
+                                    <li>Effort</li>
+                                    <li>Teamwork</li>
+                                    <li>Creative</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="title">Others</h3>
+                                <ul class="list-unstyled">
+                                    <li>MySQL</li>
+                                    <li>HTML5, CSS3</li>
+                                    <li>SFML</li>
+                                    <li>OpenGL</li>
+                                </ul>
+                            </div>
                         </div><!--//item-->                                                     
                     </div><!--//content-->  
                 </div><!--//section-inner-->                 
@@ -162,8 +216,9 @@
         </div><!--//container-->
     </footer><!--//footer-->
  
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Javascript        
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>-->   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html> 
 

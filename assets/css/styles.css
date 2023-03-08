@@ -316,6 +316,10 @@ div.nav{
   right: 0;
 }
 
+.subtitle{
+  color: #778492;
+}
+
 /* Projects Section */
 .projects .item {
   margin-bottom: 30px;
@@ -334,6 +338,12 @@ div.nav{
 
 .projects .item .title a:hover {
   color: #5f6b77;
+}
+
+.item .col-md-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Work Section */
@@ -364,6 +374,22 @@ div.nav{
 .experience .item .title .year {
   color: #999;
   font-weight: normal;
+}
+
+/* Skills Section */
+.skills .item {
+  margin-bottom: 30px;
+}
+
+.skills .item .title {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.skills div div div{
+  text-align: center;
 }
 
 /* Git section */
