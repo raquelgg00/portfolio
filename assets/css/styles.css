@@ -49,10 +49,14 @@ a:focus {
   font-weight: bold;
 }
 
-.btn .svg-inline--fa, a.btn .svg-inline--fa {
+.btn i, a.btn i {
+  font-size: 20px;
   margin-right: 5px;
   position: relative;
-  top: -2px;
+  top: 2px;
+  /*margin-right: 5px;
+  position: relative;
+  top: -2px;*/
 }
 
 .btn:hover, a.btn:hover {
@@ -165,7 +169,7 @@ a.dotted-link:hover {
   background: #778492;
 }
 
-.header .profile-content .social a .svg-inline--fa {
+.header .profile-content .social a i {
   font-size: 20px;
   margin-top: 8px;
 }
@@ -197,7 +201,7 @@ div.nav{
   font-size: 24px;
 }
 
-.section .content .more-link .svg-inline--fa {
+.section .content .more-link i {
   margin-right: 5px;
   font-size: 14px;
   position: relative;
@@ -377,7 +381,7 @@ div.nav{
   margin-bottom: 10px;
 }
 
-.credits ul li .svg-inline--fa {
+.credits ul li i {
   margin-right: 5px;
   position: relative;
   top: -2px;
@@ -387,7 +391,7 @@ div.nav{
   color: #778492;
 }
 
-.credits ul li a .svg-inline--fa {
+.credits ul li a i {
   color: #b0b7bf;
 }
 
